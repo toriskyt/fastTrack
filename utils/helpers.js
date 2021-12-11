@@ -5,6 +5,7 @@ module.exports = {
   },
   format_amount: (amount) => {
     // format large numbers with commas
+    // we need to change this to a clock instead 
     return parseInt(amount).toLocaleString();
   },
   get_emoji: () => {
