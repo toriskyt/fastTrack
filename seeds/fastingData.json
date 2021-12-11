@@ -12,12 +12,12 @@
   {
     "name": "Time-restricted eating: 16/8 or 14/10",
     "description": "Setting fasting windows.  For example, the 16/8 method means only eat between 11 a.m. and 7 p.m. or noon and 8p.m.  The 14/10 method means only eat between 10 a.m. and 8 p.m.",
-    "needed_funding": "1200"
+    "needed_funding": 1200
   },
   {
     "name": "The 24-hour fast (or eat: stop: eat method)",
     "description": "This method involves fasting completely for a full 24 hours once or twice a week.",
-    "needed_funding": "0"
+    "needed_funding": 0
   }
 ]
 
