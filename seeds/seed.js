@@ -13,7 +13,7 @@ const seedDatabase = async () => {
     returning: true,
   });
 
-  for (const project of projectData) {
+  for (const project of fastingData) {
     await Project.create({
       ...project,
       user_id: users[Math.floor(Math.random() * users.length)].id,
