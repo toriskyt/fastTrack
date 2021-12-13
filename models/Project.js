@@ -23,6 +23,9 @@ Project.init(
       allowNull: false,
       defaultValue: DataTypes.NOW,
     },
+    // need to change it to date that the fasting will be over
+    // and countdown clock
+    // we need to add the description of fasting type
     needed_funding: {
       type: DataTypes.FLOAT,
       allowNull: false,
