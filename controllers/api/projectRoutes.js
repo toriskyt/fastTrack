@@ -15,6 +15,8 @@ router.post('/', withAuth, async (req, res) => {
   }
 });
 
+// router.get('/:id')
+
 router.delete('/:id', withAuth, async (req, res) => {
   try {
     const projectData = await Project.destroy({
