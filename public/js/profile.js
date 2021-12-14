@@ -8,10 +8,10 @@ const newFormHandler = async (event) => {
   // need to get value of date entered (similar to line 6) will need to send date to api
   // inside route, will need to create a post for a fast that includes the date
   // 
-  if (name && needed_funding && description && date_fast_end) {
+  if (name && needed_funding && description) {
     const response = await fetch(`/api/projects`, {
       method: 'POST',
-      body: JSON.stringify({ name, needed_funding, description, date_fast_end }),
+      body: JSON.stringify({ name, needed_funding, description }),
       headers: {
         'Content-Type': 'application/json',
       },
