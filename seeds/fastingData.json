@@ -2,22 +2,27 @@
   {
     "name": "Twice-a-week Method",
     "description": "Capping calories at 500 two days a week",
-    "needed_funding": 500
+    "date_fast_end": 48,
+    "needed_funding":15
+   
   },
   {
     "name": "Alternate day fasting",
     "description": "Modified fasting every other day.  Limit your calories on fasting days to 500 or 25% of your normal intake",
-    "needed_funding": 500
+    "date_fast_end":24,
+    "needed_funding":25
   },
   {
     "name": "Time-restricted eating: 16/8 or 14/10",
     "description": "Setting fasting windows.  For example, the 16/8 method means only eat between 11 a.m. and 7 p.m. or noon and 8p.m.  The 14/10 method means only eat between 10 a.m. and 8 p.m.",
-    "needed_funding": 1200
+    "date_fast_end":8,
+    "needed_funding":35
   },
   {
     "name": "The 24-hour fast (or eat: stop: eat method)",
     "description": "This method involves fasting completely for a full 24 hours once or twice a week.",
-    "needed_funding": 0
+    "date_fast_end":24,
+    "needed_funding":45
   }
 ]
 
