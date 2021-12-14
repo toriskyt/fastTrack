@@ -23,10 +23,10 @@ Project.init(
       allowNull: false,
       defaultValue: DataTypes.NOW,
     },
-    date_fast_end: {
-      type: DataTypes.DATE,
-      allowNull: false,
-    },
+    // date_fast_end: {
+    //   type: DataTypes.DATE,
+    //   allowNull: false,
+    // },
     // need to change it to date that the fasting will be over
     // and countdown clock
     // we need to add the description of fasting type
