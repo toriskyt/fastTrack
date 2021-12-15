@@ -49,6 +49,7 @@ const fastButton = async (event) => {
       method: 'GET',
     });
 
+    
     if (response.ok) {
       document.location.replace(`/project/${name}`);
     } else {
