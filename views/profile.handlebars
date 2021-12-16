@@ -6,19 +6,24 @@
 
 <div class="row mt-4">
   <div class="col-md-6">
-    <h3>Explore Fasting Options:(Twice a week/5:2; <br>
-      Alternate day fasting; <br>
-      Time-restricted eating (16/8 or 14/10 method); <br>
-       The 24 hour fast;)</h3>
-    
+
+    <h3>Explore Fasting Options
+      <br>
+      </h3>
+
+      {{#each projects as |project|}}
+        <button class= "fastbtn1 fastbtn project-btn " data-name="{{project.id}}"  name="project-name">{{project.name}} </button> 
+      <br>
+      {{/each}}
 
     <form class="form new-project-form">
       <div class="form-group">
-        <label for="project-name">Fast Types:</label>
+        <label for="project-name">Fast Types:</label> <br>
+      
         <input class="form-input" type="text" id="project-name" name="project-name" />
       </div>
       <div class="form-group">
-        <label for="project-funding">Duration:</label>
+        <label for="project-funding">needed funding ($):</label>
         <input class="form-input" type="number" id="project-funding" name="project-funding" />
       </div>
       <div class="form-group">
