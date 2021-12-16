@@ -1,5 +1,7 @@
+
 const newFormHandler = async (event) => {
   event.preventDefault();
+  console.log("something should work");
 
   const name = document.querySelector('#project-name').value.trim();
   const needed_funding = document.querySelector('#project-funding').value.trim();
@@ -49,7 +51,7 @@ const fastButton = async (event) => {
       method: 'GET',
     });
 
-    
+
     if (response.ok) {
       document.location.replace(`/project/${name}`);
     } else {
@@ -66,7 +68,7 @@ document
   .addEventListener('submit', newFormHandler);
 
 document
-  .querySelector('.new-project-form')
+  .querySelector('.fastbtn1')
   .addEventListener('click', fastButton);
 
 document
