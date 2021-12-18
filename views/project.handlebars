@@ -3,13 +3,15 @@
   <p>{{{get_emoji}}}</p>
   <p>{{description}}</p>
   <p>Created by {{user.name}} on {{format_date date_created}}</p>
-  <p>
+  {{!-- TT - deleted funding needed from fasting results --}}
+  {{!-- <p>
     <span for="img" aria-label="money">💲</span>
     <span class="dollar-amount">{{format_amount needed_funding}}</span>
     needed
     <span class="countdown">{{date_fast_end}}</span>
     time
-  </p>
+  </p> --}}
+  <p>Click on the Return button for the homepage or the FastTrack logo to see what other fasting plans other users have created.</p>
   <p>
 
     <button id="return" class="btn btn-primary"><a href = "/profile">Return</button>
