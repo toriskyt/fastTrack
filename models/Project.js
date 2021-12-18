@@ -30,10 +30,10 @@ Project.init(
     // need to change it to date that the fasting will be over
     // and countdown clock
     // we need to add the description of fasting type
-    needed_funding: {
-      type: DataTypes.FLOAT,
-      allowNull: false,
-    },
+    // needed_funding: {
+    //   type: DataTypes.FLOAT,
+    //   allowNull: false,
+    // },
     user_id: {
       type: DataTypes.INTEGER,
       references: {
