@@ -1,24 +1,38 @@
 [
   {
     "name": "Twice-a-week Method",
-    "description": "Capping calories at 500 two days a week",
-    "needed_funding":15
-   
+    "description": "Capping calories at 500 two days a week.  Five days of the week are normal eating days, while the other two restrict calories to 500-600 per day.  There are no requirements about which foods to eat, but rather when you should eat.  The two days are chosen by the individual, but there needs to be at least one non-fasting day in between them.",
+    "needed_funding": 500
   },
   {
     "name": "Alternate day fasting",
-    "description": "Modified fasting every other day.  Limit your calories on fasting days to 500 or 25% of your normal intake",
-    "needed_funding":25
+    "description": "Modified fasting every other day.  On fasting days you are permitted to drink as many calorie-free beverages as you like, such as water, unsweetened coffee, and tea.  The modified version limits your calories on fasting days to 500 or 25% of your normal intake, and eat normally on all other days.",
+    "needed_funding": 500
   },
   {
     "name": "Time-restricted eating: 16/8 or 14/10",
-    "description": "Setting fasting windows.  For example, the 16/8 method means only eat between 11 a.m. and 7 p.m. or noon and 8p.m.  The 14/10 method means only eat between 10 a.m. and 8 p.m.",
-    "needed_funding":35
+    "description": "Setting fasting windows.  For example, the 16/8 method means only eat between 11 a.m. and 7 p.m. or noon and 8p.m.  The 14/10 method means only eat between 10 a.m. and 8 p.m.  The most popular time-restricted preference for many people is to eat between noon and 8 p.m., as this means they will only need to fast overnight and skip breakfast before eating a balanced lunch and dinner along with snacks during the day.",
+    "needed_funding": 1200
   },
   {
     "name": "The 24-hour fast (or eat: stop: eat method)",
-    "description": "This method involves fasting completely for a full 24 hours once or twice a week.",
-    "needed_funding":45
+    "description": "This method involves fasting completely for a full 24 hours once or twice a week.  Individuals following this method may have coffee, water and tea during their fasting period.",
+    "needed_funding": 0
+  },
+  {
+    "name": "Yom Kippur",
+    "description": "25 hours:  The purpose of fasting on this day is to atone for one's sins (to make amends and ask forgiveness for sins committed during the past year).  This fast is done on September or October on the Gregorian Calendar.",
+    "needed_funding": 0
+  },
+  {
+    "name": "Tisha B'Av",
+    "description": "24 hours; Tisha B'Av or 18th of Tammuz:  The purpose of fasting on this day is to commemorate the loss and destruction of The First and Second Temples in Jerusalem between 423 BCE and 586 BCE & 70 CE by the Babylonians and Romans.",
+    "needed_funding": 0
+  },
+  {
+    "name": "Budhist Fasting",
+    "description": "18 hours:  The budhist fast for the preactice of self-control, a diet that is flexible to the one who is fasting.  Fasting is done from sunrise to sunset or midnight to midnight.",
+    "needed_funding": 0
   }
 ]
 
