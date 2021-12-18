@@ -5,7 +5,7 @@ Project One Proposal:
 Talita Camargo, Yah’Mir McGee, Syed Jamil, Tracy Torisky, and Adriana Broadnax
 
 
-**Title:  fastTrack**
+**Title:  FastTrack**
 ![FastTrack](https://user-images.githubusercontent.com/88398240/146645513-1c5a697f-868b-49d4-bac1-167b1b158ff4.jpg)
 
 
