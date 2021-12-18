@@ -18,6 +18,21 @@
     "name": "The 24-hour fast (or eat: stop: eat method)",
     "description": "This method involves fasting completely for a full 24 hours once or twice a week.  Individuals following this method may have coffee, water and tea during their fasting period.",
     "needed_funding": 0
+  },
+  {
+    "name": "Yom Kippur",
+    "description": "25 hours:  The purpose of fasting on this day is to atone for one's sins (to make amends and ask forgiveness for sins committed during the past year).  This fast is done on September or October on the Gregorian Calendar.",
+    "needed_funding": 0
+  },
+  {
+    "name": "Tisha B'Av",
+    "description": "24 hours; Tisha B'Av or 18th of Tammuz:  The purpose of fasting on this day is to commemorate the loss and destruction of The First and Second Temples in Jerusalem between 423 BCE and 586 BCE & 70 CE by the Babylonians and Romans.",
+    "needed_funding": 0
+  },
+  {
+    "name": "Budhist Fasting",
+    "description": "18 hours:  The budhist fast for the preactice of self-control, a diet that is flexible to the one who is fasting.  Fasting is done from sunrise to sunset or midnight to midnight.",
+    "needed_funding": 0
   }
 ]
 
