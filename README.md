@@ -1,5 +1,5 @@
 # FastTrack
-[view our deployed link](https://fasttrackpenn.herokuapp.com)
+[Deployed Link](https://fasttrackpenn.herokuapp.com)
 
 Project One Proposal:  
 Talita Camargo, Yah’Mir McGee, Syed Jamil, Tracy Torisky, and Adriana Broadnax
