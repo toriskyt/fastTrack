@@ -362,12 +362,63 @@ body {
   min-height: 100%;
 }
 
-body {
+h1 {
   margin: 0;
   padding: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   font-size: 16px;
   color: #1a1a1a;
+  background-image: linear-gradient(
+    45deg,
+    #cca934 16.666%,
+    #e1b641 16.666%,
+    #c09537 33.333%,
+    #a86d3c 33.333%,
+    #c27745 50%,
+    #c27f60 50%,
+    #e07664 66.666%,
+    #ee5c57 66.666%,
+    #f36b6b 83.333%,
+    #f10c0c 83.333%);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
+}
+
+
+
+body {
+  background-image: linear-gradient(
+    45deg,
+    #e4d0b7 16.666%,
+
+    #ec8a8a 83.333%);
+}
+
+@keyframes rainbow-text-simple-animation-rev {
+  0% {
+      background-size: 650%;
+  }
+  40% {
+      background-size: 650%;
+  }
+  100% {
+      background-size: 100%;
+  }
+}
+@keyframes rainbow-text-simple-animation {
+  0% {
+      background-size: 100%;
+  }
+  80% {
+      background-size: 650%;
+  }
+  100% {
+      background-size: 650%;
+  }
 }
 
 h1,
@@ -429,7 +480,7 @@ button {
 }
 
 a {
-  color: #1b89bc;
+  color: #616161;
   text-decoration: none;
 }
 
@@ -1126,6 +1177,8 @@ a:hover {
 
 form {
   width: 100%;
+  padding: 20px;
+  background-color: rgb(221, 119, 119);
 }
 
 form .form-group {
